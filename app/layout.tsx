@@ -10,7 +10,9 @@ export default function RootLayout({
   return ( 
     <html lang="en">
       <body className={`${inter.className} antialiased`}>
-        <p className={`${pixelifySans.className} antialiased`}>{children}</p>
+        <div className={`${pixelifySans.className} antialiased`}>
+          {children}
+        </div>
       </body>
     </html>
   );
